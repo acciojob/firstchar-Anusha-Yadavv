@@ -3,6 +3,7 @@ function firstChar(text) {
 	let n=text.length;
 	if(text.length==1 && text==" "){
 		return " ";
+	}
 		
 	for(let i=0;i<n;i++){
 		
@@ -11,6 +12,7 @@ function firstChar(text) {
 		return first_char;
 	
 	
+	}
 	}
 	
 	
