@@ -1,5 +1,8 @@
 function firstChar(text) {
   // your code here
+	let first_char=text[0];
+	return first_char;
+	
 }
 
 // Do not change the code below
