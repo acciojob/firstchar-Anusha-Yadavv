@@ -1,17 +1,23 @@
 function firstChar(text) {
   // your code here
-	let first_char=text[0];
-	// return first_char
-	if(text.length==1 && first_char==" "){
+	let n=text.length;
+	if(text.length==1 && text==" "){
 		return " ";
-	}
-	else if(first_char!==" " && text.length>2){
+		
+	for(let i=0;i<n;i++){
+		
+	
+	if(text[i]!==" "){
 		return first_char;
+	
+	
 	}
+	
+	
 	
 }
 
 // Do not change the code below
 
-const text = prompt("Enter text:");
-alert(firstChar(text));
+// const text = prompt("Enter text:");
+// alert(firstChar(text));
